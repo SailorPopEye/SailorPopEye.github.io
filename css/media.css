@@ -1,0 +1,84 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.blog_item img{
+		
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.menu{
+		display: none;
+		/*background-color: #3a3a3c;*/
+		margin-top: 64px;
+		position: absolute;
+		width: 170px;
+		
+	}
+	.menu a {
+		background-color: #3a3a3c;
+		float:none;
+		opacity:1;
+		border-bottom: 1px solid #1a1a1b;
+		padding: none;
+		clear: both;
+	}
+	.menu a:hover{
+	padding: none;
+	}
+}
+
+/*  Small Devices, Phones */
+@media only screen and (max-width : 560px){
+} 
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.menu {
+		/*font-size:0.9em;*/
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.menu {
+		display: inline-block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
